@@ -10,7 +10,7 @@ module.exports = {
   config: {
     name: "video",
     version: "1.1.4",
-    credits: "dipto", //fixed by Ullash 
+    credits: "Farhan 😺👋",
     countDown: 5,
     hasPermssion: 0,
     description: "Download video, audio, and info from YouTube",
