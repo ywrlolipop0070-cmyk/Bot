@@ -1,36 +1,119 @@
-name: Node.js CI
-
-on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [20.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
-    steps:
-    # Step to check out the repository code
-    - uses: actions/checkout@v2
-
-    # Step to set up the specified Node.js version
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v2
-      with:
-        node-version: ${{ matrix.node-version }}
-
-    # Step to install dependencies
-    - name: Install dependencies
-      run: npm install
-
-    # Step to run the bot with the correct port
-    - name: Start the bot
-      env:
-        PORT: 8080
-      run: npm start
+[
+    {
+        "key": "dbln",
+        "value": "%7B%2261579859832700%22%3A%22KhB4o3kv%22%2C%2261579775987762%22%3A%22P1HqVoUQ%22%7D",
+        "domain": "facebook.com",
+        "path": "/login/device-based/",
+        "hostOnly": false,
+        "creation": "2025-09-12T03:17:23.284Z",
+        "lastAccessed": "2025-09-12T03:17:23.285Z"
+    },
+    {
+        "key": "datr",
+        "value": "0v6yaDRy3ORteLZayIb50nAn",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-09-12T03:17:23.285Z",
+        "lastAccessed": "2025-09-12T03:17:23.285Z"
+    },
+    {
+        "key": "sb",
+        "value": "0_6yaGnOFLgvEn0DqlvcH7YZ",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-09-12T03:17:23.285Z",
+        "lastAccessed": "2025-09-12T03:17:23.285Z"
+    },
+    {
+        "key": "ps_l",
+        "value": "1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-09-12T03:17:23.285Z",
+        "lastAccessed": "2025-09-12T03:17:23.285Z"
+    },
+    {
+        "key": "ps_n",
+        "value": "1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-09-12T03:17:23.285Z",
+        "lastAccessed": "2025-09-12T03:17:23.285Z"
+    },
+    {
+        "key": "pas",
+        "value": "61580007962191%3AFxiy1MnKIx%2C61579859832700%3AXMtwg49jc9%2C61579775987762%3Aa9FFrATQGT",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-09-12T03:17:23.285Z",
+        "lastAccessed": "2025-09-12T03:17:23.285Z"
+    },
+    {
+        "key": "vpd",
+        "value": "v1%3B719x393x2.75",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-09-12T03:17:23.285Z",
+        "lastAccessed": "2025-09-12T03:17:23.285Z"
+    },
+    {
+        "key": "c_user",
+        "value": "61579859832700",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-09-12T03:17:23.285Z",
+        "lastAccessed": "2025-09-12T03:17:23.285Z"
+    },
+    {
+        "key": "xs",
+        "value": "41%3A1uoc4RZFfMrU2g%3A2%3A1757559424%3A-1%3A-1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-09-12T03:17:23.285Z",
+        "lastAccessed": "2025-09-12T03:17:23.285Z"
+    },
+    {
+        "key": "locale",
+        "value": "en_GB",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-09-12T03:17:23.285Z",
+        "lastAccessed": "2025-09-12T03:17:23.285Z"
+    },
+    {
+        "key": "fr",
+        "value": "0IGab6JSI40Hh0D4G.AWcdLDv1kw-mh-PFk8RaaQY6KTz2tdQ1uThYkExk6RVpeH_PX1U.Bosv7T..AAA.0.0.Bow5C-.AWeJoiK5tr03Gvr47NQV_7_biFQ",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-09-12T03:17:23.285Z",
+        "lastAccessed": "2025-09-12T03:17:23.285Z"
+    },
+    {
+        "key": "fbl_st",
+        "value": "100733595%3BT%3A29294117",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-09-12T03:17:23.285Z",
+        "lastAccessed": "2025-09-12T03:17:23.285Z"
+    },
+    {
+        "key": "wl_cbv",
+        "value": "v2%3Bclient_version%3A2919%3Btimestamp%3A1757647039",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-09-12T03:17:23.285Z",
+        "lastAccessed": "2025-09-12T03:17:23.285Z"
+    }
+]
