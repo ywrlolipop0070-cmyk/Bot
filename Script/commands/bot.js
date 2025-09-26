@@ -100,7 +100,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
   
   if ((event.body.toLowerCase() == "lamiya") || (event.body.toLowerCase() == "nusrat")) {
-     return api.sendMessage("খবরদার কেউ এই নাম দরে ডাক দিবানা এটা আমার বস উল্লাস এর বউ এর নাম..!😠🥰⛏️", threadID);
+     return api.sendMessage("খবরদার কেউ এই নাম দরে ডাক দিবানা এটা আমার বস ফারহান এর বউ এর নাম..!😠🥰⛏️", threadID);
    };
 
   if ((event.body.toLowerCase() == "@alpha") || (event.body.toLowerCase() == "lamiya")) {
